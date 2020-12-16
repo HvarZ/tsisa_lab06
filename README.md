@@ -16,3 +16,4 @@
 ## Выполнение лабораторной работы
 
 Исходный код программы приведен в main.cpp. Результат работы программы приведен на скриншотe.
+![lab06](https://github.com/HvarZ/tsisa_lab06/blob/master/screenshots/screenshot_1.png)
