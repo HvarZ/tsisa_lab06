@@ -60,13 +60,12 @@ int main() {
     std::cout << "Path from " << 1 << " to " << 8 << std::endl;
     std::vector<boost::graph_traits<DirectedGraph>::vertex_descriptor>::reverse_iterator it;
 
-    int sum = 0;
+    std::cout << "Shortest path: ";
 
     for (it = path.rbegin(); it != path.rend(); it++) {
         std::cout << *it << " ";
     }
     std::cout << std::endl;
-    std::cout << sum;
 
     return 0;
 }
